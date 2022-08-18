@@ -28,7 +28,7 @@ public class RoleMdl {
 
 	// BEGIN: joins
 	
- 	// join user 
+ 	// user join
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
         name = "user_role", 
